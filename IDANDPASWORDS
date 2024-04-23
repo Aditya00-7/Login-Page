@@ -1,0 +1,16 @@
+public class IDandPasswords {
+    private HashMap<String, String> logininfo = new HashMap<String, String>();
+
+    IDandPasswords(){
+        logininfo.put("admin", "admin");
+        logininfo.put("user", "user");
+    }
+
+    protected HashMap getLoginInfo(){
+        return logininfo;
+    }
+}
+
+
+
+
